@@ -1,0 +1,29 @@
+body {
+  font-family: 'Copse', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#jeopardy {
+  border-collapse: collapse;
+}
+
+#jeopardy th, #jeopardy td {
+  border: 1px solid #115ff4;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #060ce9;
+  color: white;
+}
+
+#jeopardy th {
+  background-color: #74119c;
+}
+
+button {
+  margin-bottom: 20px;
+}
